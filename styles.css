@@ -1,0 +1,99 @@
+*{
+	font-family: 'Lato';
+	font-size: 14px;
+}
+
+#canvas{
+	height: 600px;
+	width: 300px;
+	padding: 24px 0px 12px 18px;
+	border-style:solid;
+    border-width:2px;  
+    border-color:rgb(230,230,230);
+
+    display: flex;
+    flex-flow: wrap column;
+    align-content: flex-start;
+}
+
+.firstOptions{
+	display: flex;
+	flex-flow: wrap row;
+	justify-content: space-between;
+	align-content: center;
+}
+.fO1{
+	display: flex;
+	flex-flow: wrap row;
+}
+.fO2{
+	display: flex;
+	flex-flow: wrap row;
+	justify-content: space-between;
+}
+.fO2 *{
+	margin:.3em 0em .3em .3em;
+}
+#three{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	padding:;
+	color:white;
+	background-color: black;
+	width: 2em;
+	height: 2em;
+	border-radius: 100px;
+}
+
+.title{
+	font-size: 28px;
+	margin:1em;
+}
+
+.card{
+	display: flex;
+	flex-flow: wrap row;
+	justify-content: flex-start;
+	align-items: center;
+}
+.images{
+	height: 6em;
+	margin: 1em .5em 1em .5em;
+	border-radius: 15px;
+}
+.datos{
+	display: flex;
+	flex-flow: wrap column;
+	justify-content: center;
+}
+.datos p{
+	margin:.2em;
+}
+#x1{
+	align-self: flex-end;
+	color: grey;
+}
+
+.total{
+	display: flex;
+	justify-content: space-between;
+
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+.total p:first-child{
+	color: gray;
+	margin-left: .5em;
+}
+
+.checkout{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: black;
+	color: white;
+	border-radius: 30px;
+}
